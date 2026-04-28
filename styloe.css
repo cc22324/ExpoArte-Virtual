@@ -1,0 +1,133 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background-color: #eaf4ff; /* azul bem claro */
+  color: #333;
+}
+
+/* HEADER (tipo Instagram) */
+header {
+  background: #ffffff;
+  border-bottom: 1px solid #cce4ff;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  color: #1e90ff;
+  font-size: 1.5rem;
+}
+
+/* NAV */
+nav a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #1e90ff;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #0a66c2;
+}
+
+/* CONTAINER CENTRAL (feed) */
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+}
+
+/* CARD estilo post */
+.card {
+  background: #ffffff;
+  border: 1px solid #d6eaff;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.05);
+}
+
+/* topo do post */
+.card-header {
+  padding: 10px;
+  font-weight: bold;
+  color: #1e90ff;
+  border-bottom: 1px solid #eee;
+}
+
+/* conteúdo */
+.card-body {
+  padding: 15px;
+  color: #444;
+}
+
+/* inputs */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #cce4ff;
+  outline: none;
+}
+
+input:focus {
+  border-color: #1e90ff;
+  box-shadow: 0px 0px 5px rgba(30,144,255,0.3);
+}
+
+/* BOTÕES */
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #1e90ff;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #0a66c2;
+}
+
+/* LINKS */
+a {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* PERFIL */
+.profile {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile h2 {
+  color: #1e90ff;
+}
+
+/* FOOTER (opcional) */
+footer {
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+  color: #666;
+}
